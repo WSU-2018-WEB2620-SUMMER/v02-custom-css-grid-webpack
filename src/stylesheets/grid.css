@@ -23,6 +23,10 @@
   clear: both;
 }
 
+.with-gutters .row:not(:first-child) .columns{
+  margin-top: 2%;
+}
+
 @media screen and (min-width: 576px) {
   .one { width: 8.33333%; }
   .two { width: 16.66667%; }
@@ -39,9 +43,6 @@
 
   .with-gutters .columns:not(:first-child) {
     margin-left: 2%;
-  }
-  .with-gutters .row:not(:first-child){
-    margin-top: 2%;
   }
   
   .with-gutters .one { width: 6.5%; }
